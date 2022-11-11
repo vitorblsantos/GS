@@ -1,0 +1,23 @@
+body,
+header {
+  height: 100vh;
+  width: 100vw;
+}
+
+body,
+h1,
+header,
+li,
+p,
+span,
+ul {
+  box-sizing: border-box;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}

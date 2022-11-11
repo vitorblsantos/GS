@@ -1,0 +1,47 @@
+.background {
+  background-image: url('/assets/image/background-home.jpg');
+  background-position-y: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button {
+  background: #000;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+  height: 32px;
+  margin: 12px auto 0;
+  text-align: center;
+  width: 200px;
+}
+
+.content {
+  margin: 140px 0 48px;
+}
+
+.featured-content {
+  background-color: #ffffff9c;
+  border-radius: 4px;
+  color: #333;
+  margin: 0;
+  padding: 12px 8px;
+  width: 100%;
+}
+
+.paragraph {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0 0 12px;
+  text-align: center;
+}

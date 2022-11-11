@@ -1,0 +1,58 @@
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+.header__content {
+  height: 40px;
+}
+
+.header__wrapper {
+  background: #fff;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 35%);
+  width: 100%;
+}
+
+.logo {
+  height: 28px;
+}
+
+.menu__item {
+  font-weight: 600;
+  margin: 0 20px 0 0;
+  position: relative;
+}
+
+.menu__item::after {
+  background-color: #333;
+  bottom: -4px;
+  content: "";
+  height: 2px;
+  left: -2px;
+  opacity: 0;
+  position: absolute;
+  right: -2px;
+  transition: all .2s ease-in-out;
+  visibility: hidden;
+}
+
+.menu__item--hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu__item--last {
+  margin: 0;
+}
+
+.menu__link {
+  color: #333;
+  font-size: .813rem;
+  text-decoration: none;
+}
+
+.menu__list {
+  list-style: none;
+}

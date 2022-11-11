@@ -1,0 +1,59 @@
+.background {
+  background-image: url('/assets/image/background-home-2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  margin: 140px 0 48px;
+}
+
+.featured-content {
+  background-color: #ffffff9c;
+  border-radius: 4px;
+  color: #333;
+  margin: 0;
+  padding: 12px 8px;
+  width: 100%;
+}
+
+.image-list {
+
+}
+
+.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  height: 192px;
+  width: 340px;
+}
+
+.image-1 {
+  background-image: url('/assets/image/drone.jpg');
+}
+
+.image-2 {
+  background-image: url('/assets/image/drone-2.jpg');
+}
+
+.image-3 {
+  background-image: url('/assets/image/drone-3.png');
+}
+
+.paragraph {
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0 0 12px;
+  text-align: center;
+}
